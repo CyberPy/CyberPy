@@ -1,5 +1,7 @@
 # CyberPy
 
+[*Developers*](https://aristotech.vip/dev/) | [*Développeurs*](https://aristotech.vip/fr/developpeurs/) | [*Entwickler*](https://aristotech.vip/de/entwickler/)
+
 **English**: A Python framework, often used with [Classic Query](https://aristotech.vip/classicquery/). Documentation is in development, thank you for your patience.
 
 **Français**: Un cadre Python, souvent utilisé avec [Classic Query](https://aristotech.vip/fr/classicquery-fr/). La documentation est en cours de développement, merci pour votre patience.
