@@ -1,0 +1,457 @@
+/*//-
+pma.og.css//-
+(c)//_2018 CyberPy//-
+License://_MIT//-
+*///-//-
+
+/* START POSITION */
+
+body, html
+{
+    max-width: 690px;
+    margin: 0 auto;
+    font-size: 1.2em;
+    background: linear-gradient(to bottom, white, #eeeeee)
+}
+.g-signin2
+{
+    width: 120px;
+    margin: 0 auto;
+}
+nav,
+footer,
+.subtitlebox,
+.textbox,
+.pma_repr,
+#progbox,
+.loadicons
+{
+    text-align: center;
+}
+.pma_repr
+{
+    list-style: none;
+    margin-left: -20px;
+}
+main,
+.subtitlebox,
+.textbox,
+.pma_repr,
+#progbox
+{
+    padding: 20px;
+    width: 100%;
+}
+#progbox
+{
+    display: none;
+}
+#progcontainer
+{
+    padding: 0px;
+    height: 30px;
+    background-color: #e8e8e8;
+    border-radius: 20px;
+}
+#progbar
+{
+    margin: 0px;
+    height: 30px;
+    background-color: #B5E61D;
+    border-radius: 20px;
+    width: 0%;
+}
+#progcontainer,
+#progpercent
+{
+    width: 94%;
+}
+.accordion
+{
+    width: 80%;
+}
+.pma_db,
+.pma_tb,
+.pma_model,
+.pma_prop,
+form
+{
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+    vertical-align: top;
+}
+.anchor
+{
+    margin: 10px;
+}
+input, .logout
+{
+    width: 50%;
+    font-size: 0.8em;
+    padding: 0.5em;
+    margin: 1em;
+    border: none;
+    color: greenyellow;
+    background: linear-gradient(to bottom right, #222222, #444444);
+}
+input[type=submit], .logout
+{
+    padding: 0.4em 0.3em 2em 0.3em;
+    font-weight: 900;
+    background: linear-gradient(to bottom right, #dddddd, cornflowerblue);
+}
+.logout
+{
+    width: 80%;
+    padding: 1em;
+}
+input[type=file]
+{
+    background: linear-gradient(to bottom right, white, #dddddd);
+    color: black;
+}
+
+form
+{
+    text-align: left;
+}
+.pma_create,
+.pma_read,
+.pma_update,
+.pma_delete
+{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    margin: 5px;
+}
+.pma_create
+{
+    margin-left: 30px;
+}
+.pma_title, h3
+{
+    display: block;
+}
+.pma_create,
+.pma_read,
+.pma_update,
+.pma_delete,
+.pma_title
+{
+    margin-right: 20px;
+}
+.pma_repr li
+{
+    margin: 5px;
+}
+nav
+{
+    background-image: url('/pythonmyadmin/images/pma_logo.pma.png');
+    background-repeat: no-repeat;
+    background-size:contain;
+    min-height: 300px;
+    width: 100%;
+    margin-left: 5%;
+}
+#usrinput
+{
+    margin-right: 5px;
+}
+#pwdinput
+{
+    margin-right: 9px;
+}
+#submitinput
+{
+    width: 62%;
+    min-width: 180px;
+}
+#submitinput:hover
+{
+    cursor:pointer;
+}
+
+form p,
+form input
+{
+    display: inline-block;
+    height: 20px;
+    border-radius: 5px;
+}
+form
+{
+    margin-left: 10%;
+}
+.tableofcontents
+{
+    display: none;
+}
+.subtitlebox,
+.textbox,
+textarea,
+hr
+{
+    border-radius: 20px;
+}
+.subtitlebox
+{
+    margin-bottom: 10px;
+    opacity: 0.8;
+}
+textarea
+{
+    padding: 20px;
+    width: 80%;
+    height: 100px;
+    spellcheck: false;
+    background: linear-gradient(to bottom right, black, #333333);
+    color: greenyellow;
+    font-size: 1em;
+    border: none;
+}
+button, strong
+{
+    display: inline-block;
+}
+button
+{
+    background: linear-gradient(to bottom right, white, #dddddd);
+    color: #444444;
+    border: none;
+    padding: 1%;
+    border-radius: 10px;
+    font-size: 0.8em;
+}
+footer
+{
+    margin: 5px;
+    padding-left: 5%;
+    width: 80%;
+    padding-top: 12%;
+}
+.cmslist,
+option
+{
+    background: linear-gradient(to bottom right, white, #dddddd);
+    padding: 2%;
+    font-size: 1.1em;
+    border: none;
+    margin: 0 auto;
+    border-radius: 20px;
+    display: block;
+    width: 90%;
+}
+#cmsval,
+#pagebox
+{
+    padding: 0px;
+    margin-top: 10%;
+}
+.cmsbtn
+{
+    margin: 5%;
+}
+
+/* END POSITION */
+
+/* START IMAGES */
+
+.pma_create
+{
+    background-image:
+        url(
+        '/pythonMyAdmin/images/pma_create.pma.png'
+        );
+}
+.pma_read
+{
+    background-image:
+        url(
+        '/pythonMyAdmin/images/pma_read.pma.png'
+        );
+}
+.pma_update
+{
+    background-image:
+        url(
+        '/pythonMyAdmin/images/pma_update.pma.png'
+        );
+}
+.pma_delete
+{
+    background-image:
+        url(
+        '/pythonMyAdmin/images/pma_delete.pma.png'
+        );
+}
+.pma_create,
+.pma_read,
+.pma_update,
+.pma_delete
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pma_create:hover,
+.pma_read:hover,
+.pma_update:hover,
+.pma_delete:hover,
+.subtitlebox:hover
+{
+    cursor:pointer;
+}
+#msg404, h3
+{
+    color: #99D9EA;
+    font-size:3em;
+}
+#img404
+{
+    width: 85%;
+    border-radius: 20px;
+}
+#upload
+{
+    border-radius: 20px;
+    background-color: #e8e8e8;
+    padding: 2%;
+    min-width: 200px;
+}
+
+/* END IMAGES */
+
+/* START COLORS */
+
+#progpercent
+{
+    font-size: 2em;
+    color: #99D9EA;
+}
+.textbox
+{
+    opacity: 0;
+}
+h1
+{
+    color: #99D9EA;
+}
+p
+{
+    color: cornflowerblue;
+}
+.subtitlebox:hover,
+button:hover,
+#upload:hover,
+.cmslist:hover,
+option:hover
+{
+    -webkit-box-shadow: 0px 0px 20px greenyellow;
+    -moz-box-shadow: 0px 0px 20px greenyellow;
+    box-shadow:0 0 20px greenyellow;
+    border-top: solid greenyellow;
+    border-bottom: solid greenyellow;
+}
+textarea:hover,
+input:hover,
+.loadicons div,
+hr
+{
+    -webkit-box-shadow: 0px 0px 20px greenyellow;
+    -moz-box-shadow: 0px 0px 20px greenyellow;
+    box-shadow:0 0 20px greenyellow;
+}
+hr
+{
+    border: solid 1px greenyellow;
+    border-radius: 100%;
+    background-color: greenyellow;
+    width: 100%;
+}
+.loadicons
+{
+    opacity: 0;
+    width: 100%;
+}
+.loadicons div
+{
+    background-color: greenyellow;
+    border-radius: 100%;
+    height: 20px;
+    width: 20px;
+    opacity: 0;
+    margin: 1%;
+    display: inline-block;
+}
+h2
+{
+    font-family: Calibri;
+    color: blue;
+}
+p, a, h1, h3
+{
+    font-family:Calibri;
+}
+a
+{
+    color: darkgrey;
+    text-decoration: none;
+}
+a:hover
+{
+    color: lightgreen;
+}
+
+.credits
+{
+    margin: 10px;
+    display: inline-block;
+}
+button:hover,
+#upload:hover,
+.cmslist:hover,
+option:hover
+{
+    cursor:pointer;
+}
+#cmsreset
+{
+    display: none;
+}
+
+/* END COLORS */
+
+@media screen and//_(max-width: 600px)
+{
+    body, html, footer
+    {
+        width: 90%;
+        padding: 0px;
+    }
+    nav, footer
+    {
+        margin-left: 5%;
+    }
+    h3, h2
+    {
+        font-size: 1em;
+    }
+    form
+    {
+        margin: 0px 0px 0px 5%;
+        padding: 0px;
+    }
+    input, form p
+    {
+        margin-left: -5%;
+        width: 75%;
+    }
+}
+@media screen and//_(max-width: 480px)
+{
+    nav
+    {
+        margin-bottom: -35% ;
+    }
+}
