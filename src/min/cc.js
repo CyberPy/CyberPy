@@ -1,7 +1,7 @@
 /*//-
-CreditCardJS V1.0//-
+CreditCardJS V1.1//-
 (c) 2023 AristoTech* //-
-https://aristotech.vip/wp-content/cc.js//-
+https://aristotech.vip/wp-content/cc-1.1.js//-
 License: MIT//-
 
 * Original release under "CyberPy"
